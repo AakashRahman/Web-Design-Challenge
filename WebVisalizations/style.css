@@ -1,3 +1,20 @@
+/*Banner and Heading text*/
+
+#banner{
+    width:auto;
+    height:100px;
+    background:rgb(192, 227, 238)
+}
+
+#headingtext h1{
+    margin-top:10px;
+    line-height:60px; 
+    font-family:Colonna MT;
+    text-align: center;
+}
+span
+{color:red}
+
 /* navbar styling*/
 a.navbar-brand{
     margin-left: 10px;
@@ -9,12 +26,11 @@ a.navbar-brand{
 /* menu bar items */
 .nav-item {
     float: right;display:block;line-height:25px;padding-left:20px;
-    padding-right:20px;font-size:20px;color:white;text-decoration:none; 
+    padding-right:20px;font-size:20px;color:white;text-decoration:none;
 }
 .nav-link:hover{
-    background:#ff6566;height:35px;margin-top:5px;margin-bottom:5px;border-radius:10px
+    background:#ff6566;height:auto;margin-top:5px;margin-bottom:5px;border-radius:10px
 }
-
 
 
 /*footer styling*/
@@ -92,7 +108,7 @@ body{
 }
 
 
-/* table text adjustments*/
+/* table text adjustments for csv data*/
 tr>th:nth-child(1),
 tr>th:nth-child(3),
 tr>th:nth-child(6),
